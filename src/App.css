@@ -13,6 +13,7 @@ button {
   margin-right: 5px;
   border: none;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .filter-button-selected {
@@ -47,6 +48,7 @@ button {
     margin-right: 5px;
     border: none;
     font-size: 0.8rem;
+    cursor: pointer;
   }
 
   .gallery {
