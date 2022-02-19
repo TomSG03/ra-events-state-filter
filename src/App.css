@@ -15,10 +15,6 @@ button {
   font-size: 1rem;
 }
 
-.filter-button {
-
-}
-
 .filter-button-selected {
   background-color: gray;
   color: white;

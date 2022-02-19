@@ -5,7 +5,7 @@ function Toolbar({filters, selected, onSelectFilter}) {
     <div className='tolbar'>
       {filters.map((e, index) => {
         return (
-          <button key={index} className={e === selected ? 'filter-button-selected' : 'filter-button'} onClick={onSelectFilter}>{e}</button>
+          <button key={index} className={e === selected ? 'filter-button-selected' : ''} onClick={onSelectFilter}>{e}</button>
         )
       })}
     </div>
