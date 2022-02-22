@@ -6,6 +6,7 @@
 
 - [x] Портфолио с фильтрами
 - [x] [Расположение товаров](https://github.com/TomSG03/ra-events-state-layouts)
+- [x] [Выпадающий список](https://github.com/TomSG03/ra-events-state-dropdown)
 
 ---
 [Спискок задач](https://github.com/TomSG03/ra-homeworks-list)
