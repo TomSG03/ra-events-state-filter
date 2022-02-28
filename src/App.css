@@ -4,20 +4,21 @@
   margin: 20px auto;
 }
 
-.tolbar {
+.toolbar {
   margin-bottom: 10px;
 }
 
 button {
-  padding: 5px 10px;
+  padding: 10px 15px;
   margin-right: 5px;
-  border: none;
+  border: 1px solid #555555;
   font-size: 1rem;
   cursor: pointer;
+  background: white;
 }
 
 .filter-button-selected {
-  background-color: gray;
+  background-color: #555555;
   color: white;
 }
 
@@ -31,7 +32,7 @@ button {
   column-width: 33%;
 }
 
-@media (max-width: 910px) {
+/* @media (max-width: 910px) {
   .gallery {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -46,9 +47,10 @@ button {
   button {
     padding: 5px 5px;
     margin-right: 5px;
-    border: none;
+    border: solid 1px ;
     font-size: 0.8rem;
     cursor: pointer;
+    border: 1px solid #555555;
   }
 
   .gallery {
@@ -59,19 +61,19 @@ button {
     -moz-column-width: 100%;
     column-width: 100%;
   }
-}
+} */
 
 .galery-img {
   margin-bottom: 10px;
 }
 
-img:hover {
+/* img:hover {
   cursor: pointer;
   -webkit-box-shadow: 2px 2px 8px 6px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 2px 2px 8px 6px rgba(34, 60, 80, 0.2);
   box-shadow: 2px 2px 8px 6px rgba(34, 60, 80, 0.2);
   transition: box-shadow 0.5s
-}
+} */
 
 img {
   width: 100%;

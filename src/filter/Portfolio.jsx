@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { useState } from 'react';
-import { projects } from './data';
+import { arrProjects } from './data';
 import ProjectList from './ProjectList'
 import Toolbar from './Toolbar'
 
@@ -8,13 +8,13 @@ export default function Portfolio() {
   const filters = ['All', 'Websites', 'Flayers', 'Business Cards'];
   const [selected, setSelected] = useState('All');
 
-  let filter = [];
+  let projects = [];
   if (selected === 'All') {
-    filter = [...projects]
+    projects = [...arrProjects]
   } else {
-    for (let i = 0; i < projects.length; i++) {
-      if (projects[i].category === selected) {
-        filter.push(projects[i])
+    for (let i = 0; i < arrProjects.length; i++) {
+      if (arrProjects[i].category === selected) {
+        projects.push(arrProjects[i])
       }
     }
   }
@@ -24,9 +24,9 @@ export default function Portfolio() {
   }
 
   return (
-    <div>
+    <>
       <Toolbar filters={filters} selected={selected} onSelectFilter={onSelectFilter} />
-      <ProjectList filter={filter} />
-    </div>
+      <ProjectList projects={projects} />
+    </>
   )
 }
